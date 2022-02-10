@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;      
+    box-shadow: border-box;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-body{
+    width: 400px;
+    height: 500px;
+}
+.card1{
+    background-color: hsl(31, 77%, 52%);
+}
+.card2{
+    background-color:  hsl(184, 100%, 22%);
+}
+.card3{
+    background-color:  hsl(179, 100%, 13%);
+}
+.card-image-top{
+    margin: 20px 0px 10px 30px;
+}
+.text-align p{
+    margin: 20px 20px 100px 30px;
+}
+.text-align h2{
+    margin-left: 30px;
+    text-height: 30px;
+}
+.card-link a{
+    text-decoration: none;
+    text-align: center;
+    margin-left: 30px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 10px 50px;
+    border-radius: 30px;
+}
